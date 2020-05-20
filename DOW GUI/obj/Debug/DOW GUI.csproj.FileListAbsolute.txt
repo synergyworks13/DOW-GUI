@@ -1,0 +1,10 @@
+C:\DOW GUI\DOW GUI\obj\Debug\DOW GUI.csprojAssemblyReference.cache
+C:\DOW GUI\DOW GUI\obj\Debug\DOW_GUI.Form1.resources
+C:\DOW GUI\DOW GUI\obj\Debug\DOW_GUI.Properties.Resources.resources
+C:\DOW GUI\DOW GUI\obj\Debug\DOW GUI.csproj.GenerateResource.cache
+C:\DOW GUI\DOW GUI\bin\Debug\DOW GUI.exe.config
+C:\DOW GUI\DOW GUI\bin\Debug\DOW GUI.exe
+C:\DOW GUI\DOW GUI\bin\Debug\DOW GUI.pdb
+C:\DOW GUI\DOW GUI\obj\Debug\DOW GUI.exe
+C:\DOW GUI\DOW GUI\obj\Debug\DOW GUI.pdb
+C:\DOW GUI\DOW GUI\obj\Debug\DOW GUI.csproj.CoreCompileInputs.cache
