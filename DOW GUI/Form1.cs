@@ -25,7 +25,7 @@ namespace DOW_GUI
 
         private void button1_Click(object sender, EventArgs e)
         {
-            System.Diagnostics.Process.Start("C:/DOW GUI/DOW GUI/DOW/run.bat");
+            System.Diagnostics.Process.Start("C:/DOW GUI/DOW GUI/bin/Debug/run.bat");
             if (string.IsNullOrWhiteSpace(textBox1.Text))
             {
                 MessageBox.Show("Input Token");
