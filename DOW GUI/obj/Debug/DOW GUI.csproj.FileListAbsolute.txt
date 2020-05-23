@@ -8,3 +8,7 @@ C:\DOW GUI\DOW GUI\bin\Debug\DOW GUI.pdb
 C:\DOW GUI\DOW GUI\obj\Debug\DOW GUI.exe
 C:\DOW GUI\DOW GUI\obj\Debug\DOW GUI.pdb
 C:\DOW GUI\DOW GUI\obj\Debug\DOW GUI.csproj.CoreCompileInputs.cache
+C:\DOW GUI\DOW GUI\bin\Debug\DOW GUI.exe.manifest
+C:\DOW GUI\DOW GUI\bin\Debug\DOW GUI.application
+C:\DOW GUI\DOW GUI\obj\Debug\DOW GUI.exe.manifest
+C:\DOW GUI\DOW GUI\obj\Debug\DOW GUI.application

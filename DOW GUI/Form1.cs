@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO;
 
 namespace DOW_GUI
 {
@@ -32,7 +33,9 @@ namespace DOW_GUI
             } 
             else
             {
-
+                TextWriter txt = new StreamWriter("C:/DOW GUI/DOW GUI/bin/Debug/token.txt");
+                txt.Write(textBox1.Text);
+                txt.Close();
             }
         }
 

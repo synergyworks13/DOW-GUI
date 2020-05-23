@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="DOW GUI.exe" version="1.0.0.1" publicKeyToken="8f608d971c7413a7" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="DOW GUI" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="DOW GUI.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DOW GUI.exe" size="170976">
+      <assemblyIdentity name="DOW GUI" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>MnkOXyehLC3MmPHDmMBUM2aIv/s1CaP0TYrpv9ixXFY=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="DOW GUI.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=LAPTOP-2MPNUBAC\evann" issuerKeyHash="6f5c907d79ae7b63342fc13afcfbfac72fbbe4ee" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>eY/KmuA1244sPNU4injhwNG9umjDyKoaS7ofB26MgdY=</DigestValue></Reference></SignedInfo><SignatureValue>uaSBY4/FuauHo3D3lnhCz40rHMVYn+ioFBX9qot+WQ/MAceXFAgAwF0dcWi/STAGYZrHkF+Jc4NSUExOJxRqOvibZGbwL872zQinfGr2XNfL23lxFYQ2MezMGalq9d14p0Gue2uI5Gqk8HUT5N4RgS2qfKdPeU7CMnPVU+mo4uE=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>6AmXsiXPF89nXuHwZUpe3l64WwJd7dP8yIHNIGjSIJ09JcUI0cBbN+A1Zt+1hBaslQ9TUyPoECdzmVid6LAtWEUSB1ng1QapxuNb0Jesbud+fVC8bwC4a3yrg7a48I00N9MB3rnrKI1fOxZeJ8Wa7TcYejnxugbxQxrmpgfmysk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="d6818c6e071fba4b1aaac8c368babdd1c0e1788a38d53c2c8edb35e09aca8f79" Description="" Url=""><as:assemblyIdentity name="DOW GUI.exe" version="1.0.0.1" publicKeyToken="8f608d971c7413a7" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=LAPTOP-2MPNUBAC\evann</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>dxP3IMnXNT//uZAWwdML531eHJAj2sqLwJo40iuKthc=</DigestValue></Reference></SignedInfo><SignatureValue>4YPzAo2cRvaMSzK4FRAxZQvWOeulnX9JY08X8FeKvCQpK6uEKMtOy4a8P82X6HAPB2B2t/yA2f6Te0r/n4G3TZbIOyWDKrqDzBd3FzCPnbr7IlG4dnlLAxn2vcHhHrYSKcJs8nOYRKOfzPDe9JHNZFuFUjZ1vA7fMjwInYHWKDg=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>6AmXsiXPF89nXuHwZUpe3l64WwJd7dP8yIHNIGjSIJ09JcUI0cBbN+A1Zt+1hBaslQ9TUyPoECdzmVid6LAtWEUSB1ng1QapxuNb0Jesbud+fVC8bwC4a3yrg7a48I00N9MB3rnrKI1fOxZeJ8Wa7TcYejnxugbxQxrmpgfmysk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQSeaZYMEXz6xMQ8LM4dFZgTANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioATABBAFAAVABPAFAALQAyAE0AUABOAFUAQgBBAEMAXABlAHYAYQBuAG4wHhcNMjAwNTIzMDA0MzA2WhcNMjEwNTIzMDY0MzA2WjA1MTMwMQYDVQQDHioATABBAFAAVABPAFAALQAyAE0AUABOAFUAQgBBAEMAXABlAHYAYQBuAG4wgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAOgJl7IlzxfPZ17h8GVKXt5euFsCXe3T/MiBzSBo0iCdPSXFCNHAWzfgNWbftYQWrJUPU1Mj6BAnc5lYneiwLVhFEgdZ4NUGqcbjW9CXrG7nfn1QvG8AuGt8q4O2uPCNNDfTAd656yiNXzsWXifFmu03GHo58boG8UMa5qYH5srJAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAPoHCS8QuCCwWGUjNHNqYmp/vE7Nx0q5VN/SaRrk9fDMV5uL1aO+yEaaGuQjRF+Yo1Yce3RB/hOq6L+kEKaBV9WoDL5P3Ws35mqs9cl+2DRiDF0htgJ5SplmWpR3i7f9qVGnIInk1mqT+9oQUWnNmR9/oTm1jFLHw7X2MSNusHTo=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
