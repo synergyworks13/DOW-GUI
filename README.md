@@ -4,7 +4,7 @@
 This software was created as a secondary option for my popular bot [**DOW**](https://github.com/goldentg/DOW) intended 
 for those that found DOW difficult to use; this software will simplify the process
 
-## - INSTILATION - 
+## - Installation - 
 ### Download
 go to [**releases**](https://github.com/goldentg/DOW-GUI/releases) and download the latest version
 
