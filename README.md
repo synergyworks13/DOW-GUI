@@ -1,6 +1,7 @@
 # DOW-GUI
 
 ## - ABOUT -
+WARNING. THIS BOT IS CURRENTLY BEING COMPLETELY REBUILT. THIS CURRENT VERSION DOES NOT CURRENTLY WORK. GET THE WORKING NON UI VERSION FROM [**HERE!!!**](https://github.com/goldentg/DOW-GUI)
 This software was created as a secondary option for my popular bot [**DOW**](https://github.com/goldentg/DOW) intended 
 for those that found DOW difficult to use; this software will simplify the process
 
